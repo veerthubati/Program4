@@ -1,12 +1,9 @@
 #include<stdio.h>
-//#include<conio.h>
 #include<openacc.h>
-//#include<openmp.h>
 float func(float x,float y);
 int main()
 {
     float sx,ex,yp,h,i,yp1,s,s1,s2,s3,s4;
-    //clrscr();
     printf("Enter the value of Y(1) ::");
     scanf("%f",&yp);
     printf("Enter the value of Start x ::");
